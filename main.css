@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+
+}
+
+.column1 {
+  flex: 1;
+  text-align: center;
+    background-color: #f6f6f6;
+}
+
+.column2 {
+  flex: 1;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.player-score {
+  margin-top: 20%;
+}
+
+.final-score {
+  font-size: 50px;
+  color: red;
+}
+
+.current {
+  width: 150px;
+  height: 100px;
+  background-color: red;
+  margin: 30% auto 25%;
+}
+
+.current-title {
+  padding-top: 15px;
+}
+
+.current-score {
+  color: white;
+}
+
+.middle-element {
+  position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.btn-new {
+margin: 25% auto 0;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 20px
+}
+
+.dice {
+margin-top: 40%;
+}
+
+.dice img {
+  width: 50%;
+  height: auto;
+}
+
+.btn-roll {
+  margin: 50% auto 5%;
+}
+
+
+.btn-hold {
+margin: 0 auto;
+}
+
+.circle {
+  visibility: hidden;
+  display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
